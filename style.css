@@ -1,0 +1,132 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #666;
+  height: 100%;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+.container_bakround-img1 {
+  background-image: url("./images/bg.jpg");
+  height: 35rem;
+  width: 85rem;
+  background-position: center;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.container-heading {
+  text-align: center;
+  /* font-size: 2rem; */
+  color: white;
+}
+
+.container-heading_head1 {
+  letter-spacing: 0.5rem;
+  padding: 1rem;
+  background-color: black;
+  border-top-left-radius: 1.8rem;
+  border-bottom-right-radius: 1.8rem;
+  outline: 0.5rem inset purple;
+  outline-offset: 0.9rem;
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+
+.container {
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding: 3rem 4.5rem;
+}
+
+.container-light {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+}
+
+.container_bakround-img2 {
+  max-width: 100%;
+  background-image: url("./images/bg2.jpg");
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  background-attachment: fixed;
+  height: 35rem;
+  width: 85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-heading-clrslogo {
+  width: 25%;
+  margin: 1rem;
+  /* display:flex; */
+}
+
+.container-dark {
+  background-color: #282e34;
+  color: white;
+}
+
+.container_bakround-img3 {
+  max-width: 100%;
+  background-image: url("./images/bg3.jpg");
+  min-height: 100%;
+  height: 35rem;
+  width: 85rem;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-heading_head2 {
+  padding: 0.8rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+  line-height: 3.6rem;
+  background-color: black;
+  font-size: 2.6rem;
+  letter-spacing: 0.5px;
+}
+
+.container_bakround-img4 {
+  max-width: 100%;
+  background-image: url("./images/bg4.jpg");
+  min-height: 100%;
+  height: 35rem;
+  width: 85rem;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
